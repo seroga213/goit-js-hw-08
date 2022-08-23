@@ -1,4 +1,4 @@
-import { throttle } from 'lodash';
+import throttle from 'lodash.throttle';
 
 const refs = {
   form: document.querySelector('.feedback-form'),
